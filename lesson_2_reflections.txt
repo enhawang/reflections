@@ -22,3 +22,4 @@ the two branches become unified with necessary changes from both recorded and a 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+well, i personally like manual cause it's more efficitent and sensible, it takes time to find and correct conflicts though.
