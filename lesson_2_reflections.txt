@@ -18,6 +18,7 @@ S
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+the two branches become unified with necessary changes from both recorded and a full working version is created
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
