@@ -1,0 +1,62 @@
+types of views(i know): ImageView
+				TextView
+				EditView
+code for TextView
+<TextView
+	android:id="@+id/nawang_text_view"
+	android:layout_width="wrap_content" //to wrap up to itself
+	android:layout_height="match_parent"//matching height to parent
+	android:layout_alignParentBottom="true"
+	android:textSize="24sp"
+	android:text="Nawang"
+	/>
+
+	textSize unit is sp
+	layout_height/width unit is dp, can be set to wrap_content, match_parent.
+	android:layout_alignParentBottom="true/false"
+			layout_alignParentTop
+			layout_alignParentRight
+			layout_alignParentLeft
+			layout_centerHorizontal="true/false"
+			layout_centerVertical
+	android:layout_toLeftOf="@id/nawang_text_view"
+	android:layout_toRightOf="@id/nawang_text_view"
+	android:layout_above="@id/nawang_text_view"
+	android:layout_below="@id/nawang_text_view"
+
+	Types of groupviews (I know): LinearLayout
+								  RelativeLayout
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+	<TextView
+	.
+	.
+	.
+	/>
+	<ImageView
+	.
+	.
+	.
+	/>
+</LinearLayout>
+
+
+
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apl/res/anrdoid"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	<TextView
+	.
+	.
+	/>
+	<ImageView
+	.
+	.
+	/>
+</RelativeLayout>
